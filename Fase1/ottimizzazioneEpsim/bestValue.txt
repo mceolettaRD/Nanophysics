@@ -1,0 +1,4 @@
+da spettrofotometro, max è 
+527.097nm
+
+valore epsim 2.182

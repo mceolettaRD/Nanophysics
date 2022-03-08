@@ -1,0 +1,1 @@
+find -L . -type f -name "production.dat" -exec bash -c 'echo "$0" "${0%/*}/3${0##*/}"' {} \;

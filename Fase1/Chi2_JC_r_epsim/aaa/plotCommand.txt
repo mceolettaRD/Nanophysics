@@ -1,0 +1,3 @@
+FILES = system("ls -1 *.dat")
+LABEL = system("ls -1 *.dat | sed -e 's/-//' -e 's/.dat//'")
+plot for [i=1:words(FILES)] word(FILES,i) u 1:2 title word(LABEL,i) noenhanced, 'AuNP_rev.txt' w l
